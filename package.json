@@ -6,7 +6,12 @@
   "author": "Gumacahin",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "serverless-http": "^2.3.0"
+  },
+  "scripts": {
+    "build": "netlify-lambda build src",
+    "start": "node index.js"
   },
   "devDependencies": {
     "jest": "^24.9.0"
